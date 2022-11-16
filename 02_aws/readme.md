@@ -1,5 +1,11 @@
 # AWS Transcibe
 
+## Execute command
+
+python app.py {audio-file}
+
+> 01_data/{audio-file}
+
 ## Price
 
 |  Time  |  USD  |  JPY  |

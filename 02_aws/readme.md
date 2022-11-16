@@ -20,7 +20,7 @@ python app.py {audio-file}
 
 ## Price
 
-- time <= 250,000 mins
+- time <= 250,000 mins/month
 
 |  Time  |  USD  |  JPY  |
 | ---- | ---- | ---- |
@@ -28,13 +28,13 @@ python app.py {audio-file}
 |  1 hour |  1.440  |  216.0  |
 |  4 hour |  5.760  |  864.0  |
 
-- 250,000 < time <= 1,000,000 mins
+- 250,000 < time <= 1,000,000 mins/month
 
 |  Time  |  USD  |  JPY  |
 | ---- | ---- | ---- |
 |  1 min  |  0.015  |    2.5  |
 
-- 1,000,000 mins < time
+- 1,000,000 mins/month < time
 
 |  Time  |  USD  |  JPY  |
 | ---- | ---- | ---- |

@@ -19,8 +19,8 @@ python app.py {audio-file}
 
 ## Price
 
-- 0-60 Minutes: Free
-- Over 60 Minutes
+- 0-60 Minutes/month: Free
+- Over 60 Minutes/month
 
 |  Time  |  USD  |  JPY  |
 | ---- | ---- | ---- |

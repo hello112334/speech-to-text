@@ -1,4 +1,6 @@
-# AWS Transcribe
+# AWS
+
+Amazon Transcribe
 
 ## Execute command
 
@@ -8,7 +10,7 @@ python app.py {audio-file}
 
 ## Price
 
-1. time <= 250,000 mins
+- time <= 250,000 mins
 
 |  Time  |  USD  |  JPY  |
 | ---- | ---- | ---- |
@@ -16,19 +18,19 @@ python app.py {audio-file}
 |  1 hour |  1.440  |  216.0  |
 |  4 hour |  5.760  |  864.0  |
 
-2. 250,000 < time <= 1,000,000 mins
+- 250,000 < time <= 1,000,000 mins
 
 |  Time  |  USD  |  JPY  |
 | ---- | ---- | ---- |
 |  1 min  |  0.015  |    2.5  |
 
-3. 1,000,000 mins < time
+- 1,000,000 mins < time
 
 |  Time  |  USD  |  JPY  |
 | ---- | ---- | ---- |
 |  1 min  |  0.015  |    1.62  |
 
-[READ MORE](https://aws.amazon.com/transcribe/pricing/?nc1=h_ls)
+READ MORE: <https://aws.amazon.com/transcribe/pricing/?nc1=h_ls>.
 
 ## Quotas
 
@@ -54,4 +56,5 @@ Description: Quota
 3. Singup a aws account
 4. Create a IAM user with access key and secret access key
 5. Setup credentials in .aws
-6. python app.py audio-file.mp3
+6. Install Python and libraries
+7. Execute app.py

@@ -29,14 +29,13 @@ count_row = 0
 def init():
     """note"""
 
-def main():
+def main(audio_filename):
     """note"""
 
     global output_text_filepath
 
     ## Step 1. Load the media files
     ### MP3
-    audio_filename = 'test_60min.mp3'
     media_file_name_mp3 = f"{dir_path}/01_data/{audio_filename}"
     filename = get_filename(audio_filename)
 
@@ -233,9 +232,13 @@ def output_text(response_results, time_now):
 if __name__ == "__main__":
 
     try:
+        if len(sys.argv[1:]) != 1:
+            raise Exception("Args is not correct.")
+        
+        filename = sys.argv[1]
         init()
 
-        main()
+        main(filename)
 
     except Exception as err:
         print(f"[ERROR] {err}")

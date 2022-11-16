@@ -24,3 +24,12 @@ Description: Quota
 09. Number of channels for channel identification: 2
 10. Number of days job records are retained: 90
 11. Minimum audio file duration: 500 milliseconds (ms)
+
+## How to use
+
+1. Download this folder
+2. Download ffmpeg and ffprobe to the folder <https://sourceforge.net/projects/ffmpeg-windows-builds/>.
+3. Singup a aws account
+4. Create a IAM user with access key and secret access key
+5. Setup credentials in .aws
+6. python app.py audio-file.mp3

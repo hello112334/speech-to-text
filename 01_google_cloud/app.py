@@ -28,7 +28,6 @@ count_row = 0
 
 def init():
     """note"""
-    # client_service_key = "AIzaSyCXs6HzT65SdkBUi53f6iRWye3JqR5jJlA"
 
 def main():
     """note"""

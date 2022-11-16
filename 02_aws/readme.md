@@ -8,6 +8,16 @@ python app.py {audio-file}
 
 > 01_data/{audio-file}
 
+## How to use
+
+1. Download this folder
+2. Download ffmpeg and ffprobe to the folder <https://sourceforge.net/projects/ffmpeg-windows-builds/>.
+3. Singup a aws account <https://aws.amazon.com/console/>.
+4. Create a IAM user with access key and secret access key
+5. Setup credentials in .aws
+6. Install Python and libraries if necessary
+7. Execute app.py
+
 ## Price
 
 - time <= 250,000 mins
@@ -49,12 +59,8 @@ Description: Quota
 10. Number of days job records are retained: 90
 11. Minimum audio file duration: 500 milliseconds (ms)
 
-## How to use
+READ MORE: <https://docs.aws.amazon.com/transcribe/latest/dg/limits-guidelines.html>.
 
-1. Download this folder
-2. Download ffmpeg and ffprobe to the folder <https://sourceforge.net/projects/ffmpeg-windows-builds/>.
-3. Singup a aws account
-4. Create a IAM user with access key and secret access key
-5. Setup credentials in .aws
-6. Install Python and libraries
-7. Execute app.py
+## Support Languages
+
+READ MORE: <https://docs.aws.amazon.com/transcribe/latest/dg/supported-languages.html>.

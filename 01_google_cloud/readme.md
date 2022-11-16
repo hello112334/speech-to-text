@@ -4,6 +4,19 @@
 
 python app.py
 
+## Price
+
+1. 0-60 Minutes; Free
+2. Over 60 Minutes
+
+|  Time  |  USD  |  JPY  |
+| ---- | ---- | ---- |
+|  1 min  |  0.024  |    3.6  |
+|  1 hour |  1.440  |  216.0  |
+|  4 hour |  5.760  |  864.0  |
+
+[READ MORE](https://cloud.google.com/speech-to-text/pricing)
+
 ## How to use
 
 1. Download this folder

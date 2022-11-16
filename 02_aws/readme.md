@@ -1,4 +1,4 @@
-# AWS Transcibe
+# AWS Transcribe
 
 ## Execute command
 
@@ -8,11 +8,27 @@ python app.py {audio-file}
 
 ## Price
 
+1. time <= 250,000 mins
+
 |  Time  |  USD  |  JPY  |
 | ---- | ---- | ---- |
 |  1 min  |  0.024  |    3.6  |
 |  1 hour |  1.440  |  216.0  |
 |  4 hour |  5.760  |  864.0  |
+
+2. 250,000 < time <= 1,000,000 mins
+
+|  Time  |  USD  |  JPY  |
+| ---- | ---- | ---- |
+|  1 min  |  0.015  |    2.5  |
+
+3. 1,000,000 mins < time
+
+|  Time  |  USD  |  JPY  |
+| ---- | ---- | ---- |
+|  1 min  |  0.015  |    1.62  |
+
+[READ MORE](https://aws.amazon.com/transcribe/pricing/?nc1=h_ls)
 
 ## Quotas
 

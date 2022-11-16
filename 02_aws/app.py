@@ -224,7 +224,6 @@ def main(media_object_key):
 
     # Transcribe Audio
     media_file_name = f"{path_input}/{media_object_key}"
-    logger.info(f"Uploading media file {media_file_name}.")
 
     # init file
     srt_filepath = f'{path_output}/{media_object_key}.srt'
@@ -236,6 +235,7 @@ def main(media_object_key):
         file.write('')
     file.close()
 
+    logger.info(f"Spliting media file {media_file_name}.")
     audio_list = slice_audio(media_file_name)
     for audio in audio_list:
         tmp_filename = f'{utils.get_filename(audio)}.mp3'
@@ -246,6 +246,7 @@ def analysis_audio(bucket, bucket_name, media_file_name, media_object_key):
     """note"""
 
     # Upload to S3
+    logger.info(f"Uploading media file {media_file_name}.")
     bucket.upload_file(media_file_name, media_object_key)
     media_uri = f's3://{bucket.name}/{media_object_key}'
 

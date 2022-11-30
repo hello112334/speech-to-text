@@ -11,5 +11,4 @@ python app.py {audio-file}
 3. Create a IAM user with access key and secret access key
 4. Setup credentials in .aws
 5. Install Python and libraries if necessary
-6. Execute app.py
-
+6. open CMD and execute app.py

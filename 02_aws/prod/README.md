@@ -1,6 +1,6 @@
 ## Execute command
 
-python app.py {audio-file}
+app.exe {audio-file}
 
 > 01_data/{audio-file}
 
@@ -12,4 +12,4 @@ python app.py {audio-file}
 4. Setup credentials in .aws
   - aws_access_key_id
   - aws_secret_access_key
-5. Execute app.exe
+5. open CMD and execute app.exe
